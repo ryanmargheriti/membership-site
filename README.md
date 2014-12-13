@@ -45,9 +45,13 @@ The basic features of the web site:
 
 ### Get Started
 
-Prerequisites: postgresql
+1. Install Ruby 2.1.2
 
-Run the bootstrap script to set up the app dependencies:
+2. Install Bundler `gem install bundler`
+
+3. Install postgresql
+
+4. Run the bootstrap script to set up the app dependencies:
 
 ```
 ./script/bootstrap.sh
@@ -56,7 +60,7 @@ Run the bootstrap script to set up the app dependencies:
 ### Run!
 
 ```
-foreman start 
+foreman start
 localhost/5000
 ```
 
